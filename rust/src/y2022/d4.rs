@@ -1,4 +1,4 @@
-fn main() {
+pub fn run() -> () {
     let file_content = std::fs::read_to_string("input.txt").unwrap();
 
     let result: i32 = file_content

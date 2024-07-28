@@ -5,7 +5,7 @@ struct Round {
     oponent_sign: u8
 }
 
-fn main() {
+pub fn run() -> () {
     let file = fs::read_to_string("input.txt").unwrap(); 
     let result: i32 = file
         .split("\n")

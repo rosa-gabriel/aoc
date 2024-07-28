@@ -1,6 +1,6 @@
 use std::fs;
 
-fn main() {
+pub fn run() -> () {
     let file = fs::read_to_string("input.txt").unwrap();
 
     let result = file.split("\n").collect::<Vec<&str>>();

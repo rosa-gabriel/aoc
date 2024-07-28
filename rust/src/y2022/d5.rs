@@ -13,7 +13,7 @@
 // 
 
 // Loop through the move count and execute the command
-fn main() {
+pub fn run() -> () {
     let input_content = std::fs::read_to_string("input.txt").unwrap();
 
     let result: Vec<&str> = input_content
